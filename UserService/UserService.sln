@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32616.157
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserService", "UserService\UserService.csproj", "{03F1A015-E25B-4900-B644-8E8A51C746C5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UserService", "UserService\UserService.csproj", "{03F1A015-E25B-4900-B644-8E8A51C746C5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BLL", "BLL\BLL.csproj", "{C00E80D4-DB76-452A-ABD1-E623F0F21134}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MessageBus", "MessageQueue\MessageBus.csproj", "{47F2D055-9472-4313-A3B1-B42DF645A596}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{03F1A015-E25B-4900-B644-8E8A51C746C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{03F1A015-E25B-4900-B644-8E8A51C746C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{03F1A015-E25B-4900-B644-8E8A51C746C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C00E80D4-DB76-452A-ABD1-E623F0F21134}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C00E80D4-DB76-452A-ABD1-E623F0F21134}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C00E80D4-DB76-452A-ABD1-E623F0F21134}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C00E80D4-DB76-452A-ABD1-E623F0F21134}.Release|Any CPU.Build.0 = Release|Any CPU
+		{47F2D055-9472-4313-A3B1-B42DF645A596}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47F2D055-9472-4313-A3B1-B42DF645A596}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47F2D055-9472-4313-A3B1-B42DF645A596}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47F2D055-9472-4313-A3B1-B42DF645A596}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
