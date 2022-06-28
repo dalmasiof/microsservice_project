@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Projeto\\microsservices_estructure\\Microsservices_Project\\PurchaseOrder\\PurchaseOrder.csproj": {}
+    "C:\\Users\\masin\\OneDrive\\Área de Trabalho\\microsservices_estructure\\Microsservices_Project\\PurchaseOrder\\PurchaseOrder.csproj": {}
   },
   "projects": {
-    "D:\\Projeto\\microsservices_estructure\\Microsservices_Project\\PurchaseOrder\\PurchaseOrder.csproj": {
+    "C:\\Users\\masin\\OneDrive\\Área de Trabalho\\microsservices_estructure\\Microsservices_Project\\PurchaseOrder\\PurchaseOrder.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Projeto\\microsservices_estructure\\Microsservices_Project\\PurchaseOrder\\PurchaseOrder.csproj",
+        "projectUniqueName": "C:\\Users\\masin\\OneDrive\\Área de Trabalho\\microsservices_estructure\\Microsservices_Project\\PurchaseOrder\\PurchaseOrder.csproj",
         "projectName": "PurchaseOrder",
-        "projectPath": "D:\\Projeto\\microsservices_estructure\\Microsservices_Project\\PurchaseOrder\\PurchaseOrder.csproj",
+        "projectPath": "C:\\Users\\masin\\OneDrive\\Área de Trabalho\\microsservices_estructure\\Microsservices_Project\\PurchaseOrder\\PurchaseOrder.csproj",
         "packagesPath": "C:\\Users\\masin\\.nuget\\packages\\",
-        "outputPath": "D:\\Projeto\\microsservices_estructure\\Microsservices_Project\\PurchaseOrder\\obj\\",
+        "outputPath": "C:\\Users\\masin\\OneDrive\\Área de Trabalho\\microsservices_estructure\\Microsservices_Project\\PurchaseOrder\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\masin\\AppData\\Roaming\\NuGet\\NuGet.Config",

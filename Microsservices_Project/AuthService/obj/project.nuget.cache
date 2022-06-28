@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "YxWxbuo9U5CUXmtZYUCi4btRli0vWPIuyqLD5nVchR0PH4dKjr+ibFPXqbpJr/K3JUf36YBQPCvGW+xqp04tiA==",
+  "dgSpecHash": "bjnlxI838G8EFZncSr2HgupTJUrdNiNj61wApw3CW6rBgLC+/QoPdG20NzMKAOATqmegkjd8Cxo1Tc1KoByuVA==",
   "success": true,
-  "projectFilePath": "D:\\Projeto\\microsservices_estructure\\Microsservices_Project\\AuthService\\AuthService.csproj",
+  "projectFilePath": "C:\\Users\\masin\\OneDrive\\Área de Trabalho\\microsservices_estructure\\Microsservices_Project\\AuthService\\AuthService.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\masin\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "C:\\Users\\masin\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",

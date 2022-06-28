@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Projeto\\microsservices_estructure\\Microsservices_Project\\MessageBus\\MessageBus.csproj": {}
+    "C:\\Users\\masin\\OneDrive\\Área de Trabalho\\microsservices_estructure\\Microsservices_Project\\MessageBus\\MessageBus.csproj": {}
   },
   "projects": {
-    "D:\\Projeto\\microsservices_estructure\\Microsservices_Project\\MessageBus\\MessageBus.csproj": {
+    "C:\\Users\\masin\\OneDrive\\Área de Trabalho\\microsservices_estructure\\Microsservices_Project\\MessageBus\\MessageBus.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Projeto\\microsservices_estructure\\Microsservices_Project\\MessageBus\\MessageBus.csproj",
+        "projectUniqueName": "C:\\Users\\masin\\OneDrive\\Área de Trabalho\\microsservices_estructure\\Microsservices_Project\\MessageBus\\MessageBus.csproj",
         "projectName": "MessageBus",
-        "projectPath": "D:\\Projeto\\microsservices_estructure\\Microsservices_Project\\MessageBus\\MessageBus.csproj",
+        "projectPath": "C:\\Users\\masin\\OneDrive\\Área de Trabalho\\microsservices_estructure\\Microsservices_Project\\MessageBus\\MessageBus.csproj",
         "packagesPath": "C:\\Users\\masin\\.nuget\\packages\\",
-        "outputPath": "D:\\Projeto\\microsservices_estructure\\Microsservices_Project\\MessageBus\\obj\\",
+        "outputPath": "C:\\Users\\masin\\OneDrive\\Área de Trabalho\\microsservices_estructure\\Microsservices_Project\\MessageBus\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\masin\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -39,6 +39,16 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "EasyNetQ": {
+              "target": "Package",
+              "version": "[6.5.2, )"
+            },
+            "Polly": {
+              "target": "Package",
+              "version": "[7.2.3, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

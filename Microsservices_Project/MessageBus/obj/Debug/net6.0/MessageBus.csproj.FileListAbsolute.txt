@@ -1,0 +1,12 @@
+C:\Users\masin\OneDrive\Área de Trabalho\microsservices_estructure\Microsservices_Project\MessageBus\bin\Debug\net6.0\MessageBus.deps.json
+C:\Users\masin\OneDrive\Área de Trabalho\microsservices_estructure\Microsservices_Project\MessageBus\bin\Debug\net6.0\MessageBus.dll
+C:\Users\masin\OneDrive\Área de Trabalho\microsservices_estructure\Microsservices_Project\MessageBus\bin\Debug\net6.0\MessageBus.pdb
+C:\Users\masin\OneDrive\Área de Trabalho\microsservices_estructure\Microsservices_Project\MessageBus\obj\Debug\net6.0\MessageBus.csproj.AssemblyReference.cache
+C:\Users\masin\OneDrive\Área de Trabalho\microsservices_estructure\Microsservices_Project\MessageBus\obj\Debug\net6.0\MessageBus.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\masin\OneDrive\Área de Trabalho\microsservices_estructure\Microsservices_Project\MessageBus\obj\Debug\net6.0\MessageBus.AssemblyInfoInputs.cache
+C:\Users\masin\OneDrive\Área de Trabalho\microsservices_estructure\Microsservices_Project\MessageBus\obj\Debug\net6.0\MessageBus.AssemblyInfo.cs
+C:\Users\masin\OneDrive\Área de Trabalho\microsservices_estructure\Microsservices_Project\MessageBus\obj\Debug\net6.0\MessageBus.csproj.CoreCompileInputs.cache
+C:\Users\masin\OneDrive\Área de Trabalho\microsservices_estructure\Microsservices_Project\MessageBus\obj\Debug\net6.0\MessageBus.dll
+C:\Users\masin\OneDrive\Área de Trabalho\microsservices_estructure\Microsservices_Project\MessageBus\obj\Debug\net6.0\refint\MessageBus.dll
+C:\Users\masin\OneDrive\Área de Trabalho\microsservices_estructure\Microsservices_Project\MessageBus\obj\Debug\net6.0\MessageBus.pdb
+C:\Users\masin\OneDrive\Área de Trabalho\microsservices_estructure\Microsservices_Project\MessageBus\obj\Debug\net6.0\ref\MessageBus.dll

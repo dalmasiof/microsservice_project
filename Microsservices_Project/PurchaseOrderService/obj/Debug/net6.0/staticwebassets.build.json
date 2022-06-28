@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "LONaTufWDXpEoX+sF75sbzsXTfFsjOh2Y270wH5B1rI=",
+  "Source": "PurchaseOrderService",
+  "BasePath": "_content/PurchaseOrderService",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

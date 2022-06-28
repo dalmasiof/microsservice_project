@@ -1,22 +1,33 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using UserService.Model;
+using UserService.Service.Interface;
 
 namespace UserService.Controllers
 {
-    [Route("[controller]")]
     [ApiController]
+    [Route("[controller]")]
     public class UserController : ControllerBase
     {
+        private readonly IUserService _userService;
+
+        public UserController(IUserService userService)
+        {
+            _userService = userService;
+        }
+
         [HttpGet]
         public ActionResult Get()
         {
             return Ok();
         }
 
-        [HttpGet]
-        public ActionResult Post()
+        [HttpPost]
+        public ActionResult Post(UserDTO userDTO)
         {
-            return Ok();
+            if (_userService.SendMessage(userDTO))
+                return Ok();
+            else return BadRequest();
         }
 
         [HttpDelete]

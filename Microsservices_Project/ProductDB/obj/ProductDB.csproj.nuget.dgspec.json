@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Projeto\\microsservices_estructure\\Microsservices_Project\\ProductDB\\ProductDB.csproj": {}
+    "C:\\Users\\masin\\OneDrive\\Área de Trabalho\\microsservices_estructure\\Microsservices_Project\\ProductDB\\ProductDB.csproj": {}
   },
   "projects": {
-    "D:\\Projeto\\microsservices_estructure\\Microsservices_Project\\ProductDB\\ProductDB.csproj": {
+    "C:\\Users\\masin\\OneDrive\\Área de Trabalho\\microsservices_estructure\\Microsservices_Project\\ProductDB\\ProductDB.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Projeto\\microsservices_estructure\\Microsservices_Project\\ProductDB\\ProductDB.csproj",
+        "projectUniqueName": "C:\\Users\\masin\\OneDrive\\Área de Trabalho\\microsservices_estructure\\Microsservices_Project\\ProductDB\\ProductDB.csproj",
         "projectName": "ProductDB",
-        "projectPath": "D:\\Projeto\\microsservices_estructure\\Microsservices_Project\\ProductDB\\ProductDB.csproj",
+        "projectPath": "C:\\Users\\masin\\OneDrive\\Área de Trabalho\\microsservices_estructure\\Microsservices_Project\\ProductDB\\ProductDB.csproj",
         "packagesPath": "C:\\Users\\masin\\.nuget\\packages\\",
-        "outputPath": "D:\\Projeto\\microsservices_estructure\\Microsservices_Project\\ProductDB\\obj\\",
+        "outputPath": "C:\\Users\\masin\\OneDrive\\Área de Trabalho\\microsservices_estructure\\Microsservices_Project\\ProductDB\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\masin\\AppData\\Roaming\\NuGet\\NuGet.Config",
