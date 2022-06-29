@@ -2,19 +2,6 @@
   "version": 3,
   "targets": {
     "net6.0": {
-      "EasyNetQ/6.5.2": {
-        "type": "package",
-        "dependencies": {
-          "Newtonsoft.Json": "12.0.3",
-          "RabbitMQ.Client": "[6.2.1, 6.5.0)"
-        },
-        "compile": {
-          "lib/netstandard2.0/EasyNetQ.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/EasyNetQ.dll": {}
-        }
-      },
       "Microsoft.Extensions.ApiDescription.Server/3.0.0": {
         "type": "package",
         "build": {
@@ -33,24 +20,6 @@
         },
         "runtime": {
           "lib/netstandard2.0/Microsoft.OpenApi.dll": {}
-        }
-      },
-      "Newtonsoft.Json/12.0.3": {
-        "type": "package",
-        "compile": {
-          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
-        }
-      },
-      "Polly/7.2.3": {
-        "type": "package",
-        "compile": {
-          "lib/netstandard2.0/Polly.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/Polly.dll": {}
         }
       },
       "RabbitMQ.Client/6.4.0": {
@@ -138,10 +107,6 @@
       "MessageBus/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
-        "dependencies": {
-          "EasyNetQ": "6.5.2",
-          "Polly": "7.2.3"
-        },
         "compile": {
           "bin/placeholder/MessageBus.dll": {}
         },
@@ -152,23 +117,6 @@
     }
   },
   "libraries": {
-    "EasyNetQ/6.5.2": {
-      "sha512": "KO/MqmZ2BTdUxvsNPX3ZfoyAlpvnxQfrqO2L5VetN/mPo2fUYGpGIkFN9f8dwRPEGNNo6Omirqo4rcO0Nu/7Gg==",
-      "type": "package",
-      "path": "easynetq/6.5.2",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "easynetq.6.5.2.nupkg.sha512",
-        "easynetq.nuspec",
-        "lib/net461/EasyNetQ.dll",
-        "lib/net461/EasyNetQ.pdb",
-        "lib/net461/EasyNetQ.xml",
-        "lib/netstandard2.0/EasyNetQ.dll",
-        "lib/netstandard2.0/EasyNetQ.pdb",
-        "lib/netstandard2.0/EasyNetQ.xml"
-      ]
-    },
     "Microsoft.Extensions.ApiDescription.Server/3.0.0": {
       "sha512": "LH4OE/76F6sOCslif7+Xh3fS/wUUrE5ryeXAMcoCnuwOQGT5Smw0p57IgDh/pHgHaGz/e+AmEQb7pRgb++wt0w==",
       "type": "package",
@@ -211,61 +159,6 @@
         "lib/netstandard2.0/Microsoft.OpenApi.xml",
         "microsoft.openapi.1.2.3.nupkg.sha512",
         "microsoft.openapi.nuspec"
-      ]
-    },
-    "Newtonsoft.Json/12.0.3": {
-      "sha512": "6mgjfnRB4jKMlzHSl+VD+oUc1IebOZabkbyWj2RiTgWwYPPuaK1H97G1sHqGwPlS5npiF5Q0OrxN1wni2n5QWg==",
-      "type": "package",
-      "path": "newtonsoft.json/12.0.3",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "LICENSE.md",
-        "lib/net20/Newtonsoft.Json.dll",
-        "lib/net20/Newtonsoft.Json.xml",
-        "lib/net35/Newtonsoft.Json.dll",
-        "lib/net35/Newtonsoft.Json.xml",
-        "lib/net40/Newtonsoft.Json.dll",
-        "lib/net40/Newtonsoft.Json.xml",
-        "lib/net45/Newtonsoft.Json.dll",
-        "lib/net45/Newtonsoft.Json.xml",
-        "lib/netstandard1.0/Newtonsoft.Json.dll",
-        "lib/netstandard1.0/Newtonsoft.Json.xml",
-        "lib/netstandard1.3/Newtonsoft.Json.dll",
-        "lib/netstandard1.3/Newtonsoft.Json.xml",
-        "lib/netstandard2.0/Newtonsoft.Json.dll",
-        "lib/netstandard2.0/Newtonsoft.Json.xml",
-        "lib/portable-net40+sl5+win8+wp8+wpa81/Newtonsoft.Json.dll",
-        "lib/portable-net40+sl5+win8+wp8+wpa81/Newtonsoft.Json.xml",
-        "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.dll",
-        "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.xml",
-        "newtonsoft.json.12.0.3.nupkg.sha512",
-        "newtonsoft.json.nuspec",
-        "packageIcon.png"
-      ]
-    },
-    "Polly/7.2.3": {
-      "sha512": "DeCY0OFbNdNxsjntr1gTXHJ5pKUwYzp04Er2LLeN3g6pWhffsGuKVfMBLe1lw7x76HrPkLxKEFxBlpRxS2nDEQ==",
-      "type": "package",
-      "path": "polly/7.2.3",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "Polly.png",
-        "lib/net461/Polly.dll",
-        "lib/net461/Polly.pdb",
-        "lib/net461/Polly.xml",
-        "lib/net472/Polly.dll",
-        "lib/net472/Polly.pdb",
-        "lib/net472/Polly.xml",
-        "lib/netstandard1.1/Polly.dll",
-        "lib/netstandard1.1/Polly.pdb",
-        "lib/netstandard1.1/Polly.xml",
-        "lib/netstandard2.0/Polly.dll",
-        "lib/netstandard2.0/Polly.pdb",
-        "lib/netstandard2.0/Polly.xml",
-        "polly.7.2.3.nupkg.sha512",
-        "polly.nuspec"
       ]
     },
     "RabbitMQ.Client/6.4.0": {

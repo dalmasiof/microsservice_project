@@ -1,14 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "GIxnucQvhCFBueob6FggDW7MHcyplPBOyVp1F4WIjRiax20BsUOwpkjBaHVi5SVgLl4b7KDdbunwA+pn/YEK9A==",
+  "dgSpecHash": "Krer0EcBiK3dKhnvWviPuVgnor/QsGRgOJ2I3BN9g/90GfFFSRZclvPrzeq4rlP7Z/iVPhTWK85JWOeeaDFoWQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\masin\\OneDrive\\Área de Trabalho\\microsservices_estructure\\Microsservices_Project\\UserService\\UserService.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\masin\\.nuget\\packages\\easynetq\\6.5.2\\easynetq.6.5.2.nupkg.sha512",
     "C:\\Users\\masin\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "C:\\Users\\masin\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
-    "C:\\Users\\masin\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
-    "C:\\Users\\masin\\.nuget\\packages\\polly\\7.2.3\\polly.7.2.3.nupkg.sha512",
     "C:\\Users\\masin\\.nuget\\packages\\rabbitmq.client\\6.4.0\\rabbitmq.client.6.4.0.nupkg.sha512",
     "C:\\Users\\masin\\.nuget\\packages\\swashbuckle.aspnetcore\\6.2.3\\swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
     "C:\\Users\\masin\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.2.3\\swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",

@@ -32,10 +32,7 @@ C:\Users\masin\OneDrive\Área de Trabalho\microsservices_estructure\Microsservic
 C:\Users\masin\OneDrive\Área de Trabalho\microsservices_estructure\Microsservices_Project\UserService\bin\Debug\net6.0\UserService.runtimeconfig.json
 C:\Users\masin\OneDrive\Área de Trabalho\microsservices_estructure\Microsservices_Project\UserService\bin\Debug\net6.0\UserService.dll
 C:\Users\masin\OneDrive\Área de Trabalho\microsservices_estructure\Microsservices_Project\UserService\bin\Debug\net6.0\UserService.pdb
-C:\Users\masin\OneDrive\Área de Trabalho\microsservices_estructure\Microsservices_Project\UserService\bin\Debug\net6.0\EasyNetQ.dll
 C:\Users\masin\OneDrive\Área de Trabalho\microsservices_estructure\Microsservices_Project\UserService\bin\Debug\net6.0\Microsoft.OpenApi.dll
-C:\Users\masin\OneDrive\Área de Trabalho\microsservices_estructure\Microsservices_Project\UserService\bin\Debug\net6.0\Newtonsoft.Json.dll
-C:\Users\masin\OneDrive\Área de Trabalho\microsservices_estructure\Microsservices_Project\UserService\bin\Debug\net6.0\Polly.dll
 C:\Users\masin\OneDrive\Área de Trabalho\microsservices_estructure\Microsservices_Project\UserService\bin\Debug\net6.0\RabbitMQ.Client.dll
 C:\Users\masin\OneDrive\Área de Trabalho\microsservices_estructure\Microsservices_Project\UserService\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
 C:\Users\masin\OneDrive\Área de Trabalho\microsservices_estructure\Microsservices_Project\UserService\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll

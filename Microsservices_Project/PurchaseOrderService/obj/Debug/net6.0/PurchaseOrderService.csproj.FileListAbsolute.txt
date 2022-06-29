@@ -25,3 +25,30 @@ D:\Projeto\microsservices_estructure\Microsservices_Project\PurchaseOrderService
 D:\Projeto\microsservices_estructure\Microsservices_Project\PurchaseOrderService\obj\Debug\net6.0\PurchaseOrderService.pdb
 D:\Projeto\microsservices_estructure\Microsservices_Project\PurchaseOrderService\obj\Debug\net6.0\PurchaseOrderService.genruntimeconfig.cache
 D:\Projeto\microsservices_estructure\Microsservices_Project\PurchaseOrderService\obj\Debug\net6.0\ref\PurchaseOrderService.dll
+C:\Users\masin\OneDrive\Área de Trabalho\microsservices_estructure\Microsservices_Project\PurchaseOrderService\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\masin\OneDrive\Área de Trabalho\microsservices_estructure\Microsservices_Project\PurchaseOrderService\bin\Debug\net6.0\appsettings.json
+C:\Users\masin\OneDrive\Área de Trabalho\microsservices_estructure\Microsservices_Project\PurchaseOrderService\bin\Debug\net6.0\PurchaseOrderService.exe
+C:\Users\masin\OneDrive\Área de Trabalho\microsservices_estructure\Microsservices_Project\PurchaseOrderService\bin\Debug\net6.0\PurchaseOrderService.deps.json
+C:\Users\masin\OneDrive\Área de Trabalho\microsservices_estructure\Microsservices_Project\PurchaseOrderService\bin\Debug\net6.0\PurchaseOrderService.runtimeconfig.json
+C:\Users\masin\OneDrive\Área de Trabalho\microsservices_estructure\Microsservices_Project\PurchaseOrderService\bin\Debug\net6.0\PurchaseOrderService.dll
+C:\Users\masin\OneDrive\Área de Trabalho\microsservices_estructure\Microsservices_Project\PurchaseOrderService\bin\Debug\net6.0\PurchaseOrderService.pdb
+C:\Users\masin\OneDrive\Área de Trabalho\microsservices_estructure\Microsservices_Project\PurchaseOrderService\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\masin\OneDrive\Área de Trabalho\microsservices_estructure\Microsservices_Project\PurchaseOrderService\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\masin\OneDrive\Área de Trabalho\microsservices_estructure\Microsservices_Project\PurchaseOrderService\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\masin\OneDrive\Área de Trabalho\microsservices_estructure\Microsservices_Project\PurchaseOrderService\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\masin\OneDrive\Área de Trabalho\microsservices_estructure\Microsservices_Project\PurchaseOrderService\obj\Debug\net6.0\PurchaseOrderService.csproj.AssemblyReference.cache
+C:\Users\masin\OneDrive\Área de Trabalho\microsservices_estructure\Microsservices_Project\PurchaseOrderService\obj\Debug\net6.0\PurchaseOrderService.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\masin\OneDrive\Área de Trabalho\microsservices_estructure\Microsservices_Project\PurchaseOrderService\obj\Debug\net6.0\PurchaseOrderService.AssemblyInfoInputs.cache
+C:\Users\masin\OneDrive\Área de Trabalho\microsservices_estructure\Microsservices_Project\PurchaseOrderService\obj\Debug\net6.0\PurchaseOrderService.AssemblyInfo.cs
+C:\Users\masin\OneDrive\Área de Trabalho\microsservices_estructure\Microsservices_Project\PurchaseOrderService\obj\Debug\net6.0\PurchaseOrderService.csproj.CoreCompileInputs.cache
+C:\Users\masin\OneDrive\Área de Trabalho\microsservices_estructure\Microsservices_Project\PurchaseOrderService\obj\Debug\net6.0\PurchaseOrderService.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\masin\OneDrive\Área de Trabalho\microsservices_estructure\Microsservices_Project\PurchaseOrderService\obj\Debug\net6.0\PurchaseOrderService.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\masin\OneDrive\Área de Trabalho\microsservices_estructure\Microsservices_Project\PurchaseOrderService\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\masin\OneDrive\Área de Trabalho\microsservices_estructure\Microsservices_Project\PurchaseOrderService\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\masin\OneDrive\Área de Trabalho\microsservices_estructure\Microsservices_Project\PurchaseOrderService\obj\Debug\net6.0\scopedcss\bundle\PurchaseOrderService.styles.css
+C:\Users\masin\OneDrive\Área de Trabalho\microsservices_estructure\Microsservices_Project\PurchaseOrderService\obj\Debug\net6.0\PurchaseOrderService.csproj.CopyComplete
+C:\Users\masin\OneDrive\Área de Trabalho\microsservices_estructure\Microsservices_Project\PurchaseOrderService\obj\Debug\net6.0\PurchaseOrderService.dll
+C:\Users\masin\OneDrive\Área de Trabalho\microsservices_estructure\Microsservices_Project\PurchaseOrderService\obj\Debug\net6.0\refint\PurchaseOrderService.dll
+C:\Users\masin\OneDrive\Área de Trabalho\microsservices_estructure\Microsservices_Project\PurchaseOrderService\obj\Debug\net6.0\PurchaseOrderService.pdb
+C:\Users\masin\OneDrive\Área de Trabalho\microsservices_estructure\Microsservices_Project\PurchaseOrderService\obj\Debug\net6.0\PurchaseOrderService.genruntimeconfig.cache
+C:\Users\masin\OneDrive\Área de Trabalho\microsservices_estructure\Microsservices_Project\PurchaseOrderService\obj\Debug\net6.0\ref\PurchaseOrderService.dll

@@ -1,15 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ZBUcJuoPWxryabmA7qR++K5+4B4bF5zkFj8rutfG7bCGfbNO5w/bRe9Uy5M6yjPlDUDJ45A8X117ODFZASFfyQ==",
+  "dgSpecHash": "TYs1hC8iVb2P2Y1j0NFT5v9g5T4AYFcCMRncMogdOBPtDGJAEOjD8auJP+yVIpb6hHqE4uXLAJdH8eCb4DfPiQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\masin\\OneDrive\\Área de Trabalho\\microsservices_estructure\\Microsservices_Project\\MessageBus\\MessageBus.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\masin\\.nuget\\packages\\easynetq\\6.5.2\\easynetq.6.5.2.nupkg.sha512",
-    "C:\\Users\\masin\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
-    "C:\\Users\\masin\\.nuget\\packages\\polly\\7.2.3\\polly.7.2.3.nupkg.sha512",
-    "C:\\Users\\masin\\.nuget\\packages\\rabbitmq.client\\6.2.1\\rabbitmq.client.6.2.1.nupkg.sha512",
-    "C:\\Users\\masin\\.nuget\\packages\\system.memory\\4.5.4\\system.memory.4.5.4.nupkg.sha512",
-    "C:\\Users\\masin\\.nuget\\packages\\system.threading.channels\\4.7.1\\system.threading.channels.4.7.1.nupkg.sha512"
-  ],
+  "expectedPackageFiles": [],
   "logs": []
 }

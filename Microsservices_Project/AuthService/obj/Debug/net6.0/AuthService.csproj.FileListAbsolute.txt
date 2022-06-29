@@ -25,3 +25,30 @@ D:\Projeto\microsservices_estructure\Microsservices_Project\AuthService\obj\Debu
 D:\Projeto\microsservices_estructure\Microsservices_Project\AuthService\obj\Debug\net6.0\AuthService.pdb
 D:\Projeto\microsservices_estructure\Microsservices_Project\AuthService\obj\Debug\net6.0\AuthService.genruntimeconfig.cache
 D:\Projeto\microsservices_estructure\Microsservices_Project\AuthService\obj\Debug\net6.0\ref\AuthService.dll
+C:\Users\masin\OneDrive\Área de Trabalho\microsservices_estructure\Microsservices_Project\AuthService\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\masin\OneDrive\Área de Trabalho\microsservices_estructure\Microsservices_Project\AuthService\bin\Debug\net6.0\appsettings.json
+C:\Users\masin\OneDrive\Área de Trabalho\microsservices_estructure\Microsservices_Project\AuthService\bin\Debug\net6.0\AuthService.exe
+C:\Users\masin\OneDrive\Área de Trabalho\microsservices_estructure\Microsservices_Project\AuthService\bin\Debug\net6.0\AuthService.deps.json
+C:\Users\masin\OneDrive\Área de Trabalho\microsservices_estructure\Microsservices_Project\AuthService\bin\Debug\net6.0\AuthService.runtimeconfig.json
+C:\Users\masin\OneDrive\Área de Trabalho\microsservices_estructure\Microsservices_Project\AuthService\bin\Debug\net6.0\AuthService.dll
+C:\Users\masin\OneDrive\Área de Trabalho\microsservices_estructure\Microsservices_Project\AuthService\bin\Debug\net6.0\AuthService.pdb
+C:\Users\masin\OneDrive\Área de Trabalho\microsservices_estructure\Microsservices_Project\AuthService\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\masin\OneDrive\Área de Trabalho\microsservices_estructure\Microsservices_Project\AuthService\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\masin\OneDrive\Área de Trabalho\microsservices_estructure\Microsservices_Project\AuthService\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\masin\OneDrive\Área de Trabalho\microsservices_estructure\Microsservices_Project\AuthService\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\masin\OneDrive\Área de Trabalho\microsservices_estructure\Microsservices_Project\AuthService\obj\Debug\net6.0\AuthService.csproj.AssemblyReference.cache
+C:\Users\masin\OneDrive\Área de Trabalho\microsservices_estructure\Microsservices_Project\AuthService\obj\Debug\net6.0\AuthService.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\masin\OneDrive\Área de Trabalho\microsservices_estructure\Microsservices_Project\AuthService\obj\Debug\net6.0\AuthService.AssemblyInfoInputs.cache
+C:\Users\masin\OneDrive\Área de Trabalho\microsservices_estructure\Microsservices_Project\AuthService\obj\Debug\net6.0\AuthService.AssemblyInfo.cs
+C:\Users\masin\OneDrive\Área de Trabalho\microsservices_estructure\Microsservices_Project\AuthService\obj\Debug\net6.0\AuthService.csproj.CoreCompileInputs.cache
+C:\Users\masin\OneDrive\Área de Trabalho\microsservices_estructure\Microsservices_Project\AuthService\obj\Debug\net6.0\AuthService.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\masin\OneDrive\Área de Trabalho\microsservices_estructure\Microsservices_Project\AuthService\obj\Debug\net6.0\AuthService.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\masin\OneDrive\Área de Trabalho\microsservices_estructure\Microsservices_Project\AuthService\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\masin\OneDrive\Área de Trabalho\microsservices_estructure\Microsservices_Project\AuthService\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\masin\OneDrive\Área de Trabalho\microsservices_estructure\Microsservices_Project\AuthService\obj\Debug\net6.0\scopedcss\bundle\AuthService.styles.css
+C:\Users\masin\OneDrive\Área de Trabalho\microsservices_estructure\Microsservices_Project\AuthService\obj\Debug\net6.0\AuthService.csproj.CopyComplete
+C:\Users\masin\OneDrive\Área de Trabalho\microsservices_estructure\Microsservices_Project\AuthService\obj\Debug\net6.0\AuthService.dll
+C:\Users\masin\OneDrive\Área de Trabalho\microsservices_estructure\Microsservices_Project\AuthService\obj\Debug\net6.0\refint\AuthService.dll
+C:\Users\masin\OneDrive\Área de Trabalho\microsservices_estructure\Microsservices_Project\AuthService\obj\Debug\net6.0\AuthService.pdb
+C:\Users\masin\OneDrive\Área de Trabalho\microsservices_estructure\Microsservices_Project\AuthService\obj\Debug\net6.0\AuthService.genruntimeconfig.cache
+C:\Users\masin\OneDrive\Área de Trabalho\microsservices_estructure\Microsservices_Project\AuthService\obj\Debug\net6.0\ref\AuthService.dll

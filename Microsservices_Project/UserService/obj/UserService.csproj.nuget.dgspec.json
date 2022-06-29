@@ -39,16 +39,6 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "dependencies": {
-            "EasyNetQ": {
-              "target": "Package",
-              "version": "[6.5.2, )"
-            },
-            "Polly": {
-              "target": "Package",
-              "version": "[7.2.3, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",
