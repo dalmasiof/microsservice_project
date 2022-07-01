@@ -55,3 +55,8 @@ C:\Users\masin\OneDrive\Área de Trabalho\microsservices_estructure\Microsservic
 C:\Users\masin\OneDrive\Área de Trabalho\microsservices_estructure\Microsservices_Project\UserService\obj\Debug\net6.0\UserService.pdb
 C:\Users\masin\OneDrive\Área de Trabalho\microsservices_estructure\Microsservices_Project\UserService\obj\Debug\net6.0\UserService.genruntimeconfig.cache
 C:\Users\masin\OneDrive\Área de Trabalho\microsservices_estructure\Microsservices_Project\UserService\obj\Debug\net6.0\ref\UserService.dll
+C:\Users\masin\OneDrive\Área de Trabalho\microsservices_estructure\Microsservices_Project\UserService\bin\Debug\net6.0\PurchaseOrderService.deps.json
+C:\Users\masin\OneDrive\Área de Trabalho\microsservices_estructure\Microsservices_Project\UserService\bin\Debug\net6.0\PurchaseOrderService.runtimeconfig.json
+C:\Users\masin\OneDrive\Área de Trabalho\microsservices_estructure\Microsservices_Project\UserService\bin\Debug\net6.0\PurchaseOrderService.exe
+C:\Users\masin\OneDrive\Área de Trabalho\microsservices_estructure\Microsservices_Project\UserService\bin\Debug\net6.0\PurchaseOrderService.dll
+C:\Users\masin\OneDrive\Área de Trabalho\microsservices_estructure\Microsservices_Project\UserService\bin\Debug\net6.0\PurchaseOrderService.pdb

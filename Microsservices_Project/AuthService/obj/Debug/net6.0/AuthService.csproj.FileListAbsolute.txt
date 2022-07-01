@@ -52,3 +52,8 @@ C:\Users\masin\OneDrive\Área de Trabalho\microsservices_estructure\Microsservic
 C:\Users\masin\OneDrive\Área de Trabalho\microsservices_estructure\Microsservices_Project\AuthService\obj\Debug\net6.0\AuthService.pdb
 C:\Users\masin\OneDrive\Área de Trabalho\microsservices_estructure\Microsservices_Project\AuthService\obj\Debug\net6.0\AuthService.genruntimeconfig.cache
 C:\Users\masin\OneDrive\Área de Trabalho\microsservices_estructure\Microsservices_Project\AuthService\obj\Debug\net6.0\ref\AuthService.dll
+C:\Users\masin\OneDrive\Área de Trabalho\microsservices_estructure\Microsservices_Project\AuthService\bin\Debug\net6.0\RabbitMQ.Client.dll
+C:\Users\masin\OneDrive\Área de Trabalho\microsservices_estructure\Microsservices_Project\AuthService\bin\Debug\net6.0\Entities.dll
+C:\Users\masin\OneDrive\Área de Trabalho\microsservices_estructure\Microsservices_Project\AuthService\bin\Debug\net6.0\MessageBus.dll
+C:\Users\masin\OneDrive\Área de Trabalho\microsservices_estructure\Microsservices_Project\AuthService\bin\Debug\net6.0\Entities.pdb
+C:\Users\masin\OneDrive\Área de Trabalho\microsservices_estructure\Microsservices_Project\AuthService\bin\Debug\net6.0\MessageBus.pdb

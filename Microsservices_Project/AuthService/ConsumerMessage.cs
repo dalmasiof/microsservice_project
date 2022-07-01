@@ -3,24 +3,22 @@ using RabbitMQ.Client;
 using RabbitMQ.Client.Events;
 using System.Text;
 using System.Text.Json;
-using UserDB.Data.Repository;
 
-namespace UserDB.MessageConsumer
+namespace AuthService
 {
+
     public class ConsumerMessage : BackgroundService
     {
         private IConnection _connection;
         private IModel _channel;
         //private IRabbitMQMessageSender _rabbitMQMessageSender;
-        private  UserRepository _userRepo;
         private readonly string _queueName;
-        private readonly string _exchangeName;
 
 
-        public ConsumerMessage(UserRepository userRepository)
+        public ConsumerMessage()
         {
-            _exchangeName = MESSAGE_QUEUE_NAMES.USER_CREATE;
-            _userRepo = userRepository;
+            _queueName = MESSAGE_QUEUE_NAMES.USER_CREATE;
+            //_userRepo = userRepository;
             //_rabbitMQMessageSender = rabbitMQMessageSender;
 
             var factory = new ConnectionFactory
@@ -31,17 +29,12 @@ namespace UserDB.MessageConsumer
             };
             _connection = factory.CreateConnection();
             _channel = _connection.CreateModel();
-            _channel.ExchangeDeclare(_exchangeName,ExchangeType.Fanout);
-            _queueName = _channel.QueueDeclare().QueueName;
-            _channel.QueueBind(_queueName, _exchangeName,"");
-
-
-
+            _channel.QueueDeclare(queue: _queueName, false, false, false, arguments: null);
         }
 
         protected override Task ExecuteAsync(CancellationToken stoppingToken)
         {
-            stoppingToken.ThrowIfCancellationRequested();   
+            stoppingToken.ThrowIfCancellationRequested();
             var consumer = new EventingBasicConsumer(_channel);
             consumer.Received += (chanel, evt) =>
             {
@@ -59,7 +52,7 @@ namespace UserDB.MessageConsumer
 
             try
             {
-                var result = _userRepo.Create(model);
+                throw new NotImplementedException();
             }
             catch (Exception)
             {

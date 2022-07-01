@@ -26,10 +26,10 @@ namespace UserService.MessageSender
             if (ConnectionExists())
             {
                 using var channel = _connection.CreateModel();
-                channel.QueueDeclare(queue: queueName, false, false, false, arguments: null);
+                channel.ExchangeDeclare(queueName,ExchangeType.Fanout,durable:false);
                 byte[] body = GetMessageAsByteArray(message);
                 channel.BasicPublish(
-                    exchange: "", routingKey: queueName, basicProperties: null, body: body);
+                    exchange: queueName, "", basicProperties: null, body: body);
             }
         }
 

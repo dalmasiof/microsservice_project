@@ -13,7 +13,7 @@ namespace UserService.Service
         public User_Service(IMessageSender messageSender)
         {
             _messageSender = messageSender;
-            _queuename = "User_Queue";
+            _queuename = MESSAGE_QUEUE_NAMES.USER_CREATE;
 
         }
         public bool SendMessage(UserDTO userDTO)
