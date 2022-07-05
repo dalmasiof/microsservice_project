@@ -34,6 +34,6 @@ namespace UserDB.Data.Context
 
 
         }
-        public DbSet<UserData> Users { get; set; }
+        public DbSet<UserData> UserDatas { get; set; }
     }
 }

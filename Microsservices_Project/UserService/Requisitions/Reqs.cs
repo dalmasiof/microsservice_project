@@ -1,4 +1,5 @@
 ﻿using HttpRequisition;
+using UserService.Model;
 using System.Text.Json;
 
 namespace UserService.Requisitions
@@ -23,9 +24,9 @@ namespace UserService.Requisitions
         public async Task<IEnumerable<UserData>> Get()
         {
             HttpResponseMessage response = await HttpClient.GetAsync(url);
-            var responseContent = await response.Content.ReadAsStringAsync();
-            var payload = JsonSerializer.Deserialize<IEnumerable<UserData>>(responseContent);
-            return payload;
+            var responseContent =  response.Content.ReadAsStringAsync().Result;
+            var payload = JsonSerializer.Deserialize<IEnumerable<UserDTO>>(responseContent);
+            return null;
 
 
             //var teste  = _httpReq.Get(_url);

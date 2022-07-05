@@ -17,7 +17,7 @@ namespace UserDB.Controllers
         public IActionResult Get()
         {
             var user = _userRepository.Get();
-            return Ok (User);
+            return Ok (user);
         }
 
         [HttpGet("{id}")]

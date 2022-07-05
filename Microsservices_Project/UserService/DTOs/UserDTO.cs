@@ -5,23 +5,23 @@ namespace UserService.Model
 {
     public class UserDTO
     {
-        public long Id { get; set; }
+        public long id { get; set; }
 
         [Required]
         [MaxLength(500)]
-        public string  Name { get; set; }
+        public string  name { get; set; }
 
         [Required]
         [MaxLength(500)]
-        public string  LastName { get; set; }
+        public string  lastName { get; set; }
 
         [Required]
         [DataType(DataType.Date)]
-        public DateTime BirthDate { get; set; }
+        public DateTime birthDate { get; set; }
 
         [Required]
         [MaxLength(256)]
-        public string Email { get; set; }
+        public string email { get; set; }
 
 
 

@@ -22,17 +22,17 @@ namespace UserDB.Data.Repository
 
         public bool Delete(UserData entity)
         {
-            _context.Users.Remove(entity);
+            _context.UserDatas.Remove(entity);
              return SaveChanges();
 
         }
 
         public IEnumerable<UserData> Get()
         {
-            return _context.Users;
+            return _context.UserDatas;
         }
 
-        public UserData GetById(long Id) => _context.Users.Where(x => x.Id == Id).FirstOrDefault();
+        public UserData GetById(long Id) => _context.UserDatas.Where(x => x.Id == Id).FirstOrDefault();
 
         public bool SaveChanges()
         {
@@ -44,7 +44,7 @@ namespace UserDB.Data.Repository
 
         public UserData Update(UserData entity)
         {
-            _context.Users.Update(entity);
+            _context.UserDatas.Update(entity);
             SaveChanges();
             return entity;
         }
