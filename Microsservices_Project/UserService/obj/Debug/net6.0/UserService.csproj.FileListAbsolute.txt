@@ -63,3 +63,7 @@ C:\Users\masin\OneDrive\Área de Trabalho\microsservices_estructure\Microsservic
 C:\Users\masin\OneDrive\Área de Trabalho\microsservices_estructure\Microsservices_Project\UserService\bin\Debug\net6.0\FluentValidation.dll
 C:\Users\masin\OneDrive\Área de Trabalho\microsservices_estructure\Microsservices_Project\UserService\bin\Debug\net6.0\Interfaces.dll
 C:\Users\masin\OneDrive\Área de Trabalho\microsservices_estructure\Microsservices_Project\UserService\bin\Debug\net6.0\Interfaces.pdb
+C:\Users\masin\OneDrive\Área de Trabalho\microsservices_estructure\Microsservices_Project\UserService\bin\Debug\net6.0\Entities.dll
+C:\Users\masin\OneDrive\Área de Trabalho\microsservices_estructure\Microsservices_Project\UserService\bin\Debug\net6.0\HttpRequisition.dll
+C:\Users\masin\OneDrive\Área de Trabalho\microsservices_estructure\Microsservices_Project\UserService\bin\Debug\net6.0\Entities.pdb
+C:\Users\masin\OneDrive\Área de Trabalho\microsservices_estructure\Microsservices_Project\UserService\bin\Debug\net6.0\HttpRequisition.pdb

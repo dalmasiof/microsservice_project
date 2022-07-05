@@ -17,9 +17,10 @@ namespace UserService.Controllers
         }
 
         [HttpGet]
-        public ActionResult Get()
+        public async Task<ActionResult> Get()
         {
-            return Ok();
+           var userList = await _userService.Get();
+            return Ok(userList);
         }
 
         [HttpPost]
