@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "f7ek9F2LYH4FzNdkL4ajBLWvuBkeHY9/6VV0pAGCDGvRxynA6Frre4q/A09Z17AjJS5ZIXbYxxzBEhJzOGUE/Q==",
+  "dgSpecHash": "Ctf0FbkwKOSyRp+3odb5PWFBjG2QjfzTae8EvENG1K0nf2ZNK98juOO5qODsq0QXVL5MhoJSW3VL0H4HsrOuqQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\masin\\OneDrive\\Área de Trabalho\\microsservices_estructure\\Microsservices_Project\\UserService\\UserService.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\masin\\.nuget\\packages\\fluentvalidation\\11.1.0\\fluentvalidation.11.1.0.nupkg.sha512",
     "C:\\Users\\masin\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "C:\\Users\\masin\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
     "C:\\Users\\masin\\.nuget\\packages\\rabbitmq.client\\6.4.0\\rabbitmq.client.6.4.0.nupkg.sha512",

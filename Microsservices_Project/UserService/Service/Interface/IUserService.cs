@@ -2,9 +2,9 @@
 
 namespace UserService.Service.Interface
 {
-    public interface IUserService
+    public interface IUserService : IBaseInterface<UserDTO>
     {
-        bool SendMessage(UserDTO userDTO);
+        
 
 
     }

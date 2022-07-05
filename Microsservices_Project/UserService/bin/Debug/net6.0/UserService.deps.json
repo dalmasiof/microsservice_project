@@ -8,6 +8,8 @@
     ".NETCoreApp,Version=v6.0": {
       "UserService/1.0.0": {
         "dependencies": {
+          "FluentValidation": "11.1.0",
+          "Interfaces": "1.0.0",
           "MessageBus": "1.0.0",
           "PurchaseOrderService": "1.0.0",
           "RabbitMQ.Client": "6.4.0",
@@ -15,6 +17,14 @@
         },
         "runtime": {
           "UserService.dll": {}
+        }
+      },
+      "FluentValidation/11.1.0": {
+        "runtime": {
+          "lib/net6.0/FluentValidation.dll": {
+            "assemblyVersion": "11.0.0.0",
+            "fileVersion": "11.1.0.0"
+          }
         }
       },
       "Microsoft.Extensions.ApiDescription.Server/3.0.0": {},
@@ -78,6 +88,11 @@
       },
       "System.Memory/4.5.4": {},
       "System.Threading.Channels/4.7.1": {},
+      "Interfaces/1.0.0": {
+        "runtime": {
+          "Interfaces.dll": {}
+        }
+      },
       "MessageBus/1.0.0": {
         "runtime": {
           "MessageBus.dll": {}
@@ -98,6 +113,13 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "FluentValidation/11.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Ld7w+2jOmnhQqFkngEGuEWTRa5j6u4Xzli7jKxRtbA5PtuHHcpin01qxvxYL0LomeJuzRMGAOURu2rKONdjKQA==",
+      "path": "fluentvalidation/11.1.0",
+      "hashPath": "fluentvalidation.11.1.0.nupkg.sha512"
     },
     "Microsoft.Extensions.ApiDescription.Server/3.0.0": {
       "type": "package",
@@ -161,6 +183,11 @@
       "sha512": "sha512-6akRtHK/wab3246t4p5v3HQrtQk8LboOt5T4dtpNgsp3zvDeM4/Gx8V12t0h+c/W9/enUrilk8n6EQqdQorZAA==",
       "path": "system.threading.channels/4.7.1",
       "hashPath": "system.threading.channels.4.7.1.nupkg.sha512"
+    },
+    "Interfaces/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     },
     "MessageBus/1.0.0": {
       "type": "project",

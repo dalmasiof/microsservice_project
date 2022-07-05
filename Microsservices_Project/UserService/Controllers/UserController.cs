@@ -25,9 +25,8 @@ namespace UserService.Controllers
         [HttpPost]
         public ActionResult Post(UserDTO userDTO)
         {
-            if (_userService.SendMessage(userDTO))
+            _userService.Create(userDTO);
                 return Ok();
-            else return BadRequest();
         }
 
         [HttpDelete]

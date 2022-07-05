@@ -1,31 +1,45 @@
-﻿using MessageBus;
-using UserService.MessageSender.Interfaces;
+﻿using FluentValidation;
 using UserService.Model;
 using UserService.Service.Interface;
+using UserService.Service.Validator;
 
 namespace UserService.Service
 {
     public class User_Service : IUserService
     {
-        private readonly IMessageSender _messageSender;
-        private readonly string _queuename;
 
-        public User_Service(IMessageSender messageSender)
+    
+
+        public UserDTO Create(UserDTO entity)
         {
-            _messageSender = messageSender;
-            _queuename = MESSAGE_QUEUE_NAMES.USER_CREATE;
-
-        }
-        public bool SendMessage(UserDTO userDTO)
-        {
-            //validationProcess
-            if (userDTO == null) return false;
-
-            _messageSender.SendMessage(userDTO, _queuename);
-
-            return true;
+            Validate(entity);
+            throw new NotImplementedException();
         }
 
+        public UserDTO Delete(UserDTO entity)
+        {
+            throw new NotImplementedException();
+        }
 
+        public IEnumerable<UserDTO> Get(UserDTO entity)
+        {
+            throw new NotImplementedException();
+        }
+
+        public bool SaveChanges()
+        {
+            throw new NotImplementedException();
+        }
+
+        public UserDTO Update(UserDTO entity)
+        {
+            throw new NotImplementedException();
+        }
+
+        public void Validate(UserDTO obj)
+        {
+            UserValidator  validationRules = new UserValidator();
+            validationRules.ValidateAndThrow(obj);
+        }
     }
 }

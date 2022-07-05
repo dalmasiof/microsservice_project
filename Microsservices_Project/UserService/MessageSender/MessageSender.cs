@@ -23,26 +23,26 @@ namespace UserService.MessageSender
 
         public void SendMessage(BaseMessage message, string queueName)
         {
-            if (ConnectionExists())
-            {
-                using var channel = _connection.CreateModel();
-                channel.ExchangeDeclare(queueName,ExchangeType.Fanout,durable:false);
-                byte[] body = GetMessageAsByteArray(message);
-                channel.BasicPublish(
-                    exchange: queueName, "", basicProperties: null, body: body);
-            }
+            //if (ConnectionExists())
+            //{
+            //    using var channel = _connection.CreateModel();
+            //    channel.ExchangeDeclare(queueName,ExchangeType.Fanout,durable:false);
+            //    byte[] body = GetMessageAsByteArray(message);
+            //    channel.BasicPublish(
+            //        exchange: queueName, "", basicProperties: null, body: body);
+            //}
         }
 
-        private byte[] GetMessageAsByteArray(BaseMessage message)
-        {
-            var options = new JsonSerializerOptions
-            {
-                WriteIndented = true,
-            };
-            var json = JsonSerializer.Serialize<UserDTO>((UserDTO)message, options);
-            var body = Encoding.UTF8.GetBytes(json);
-            return body;
-        }
+        //private byte[] GetMessageAsByteArray(BaseMessage message)
+        //{
+        //    var options = new JsonSerializerOptions
+        //    {
+        //        WriteIndented = true,
+        //    };
+        //    var json = JsonSerializer.Serialize<UserDTO>((UserDTO)message, options);
+        //    var body = Encoding.UTF8.GetBytes(json);
+        //    return body;
+        //}
 
         private void CreateConnection()
         {

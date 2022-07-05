@@ -12,8 +12,8 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-builder.Services.AddSingleton<IUserService, User_Service>();
-builder.Services.AddSingleton<IMessageSender, MessageSender>();
+builder.Services.AddScoped<IUserService, User_Service>();
+//builder.Services.AddSingleton<IMessageSender, MessageSender>();
 
 var app = builder.Build();
 
