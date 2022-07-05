@@ -214,9 +214,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\masin\\OneDrive\\Área de Trabalho\\microsservices_estructure\\Microsservices_Project\\PurchaseOrder\\PurchaseOrder.csproj",
-      "projectName": "PurchaseOrder",
-      "projectPath": "C:\\Users\\masin\\OneDrive\\Área de Trabalho\\microsservices_estructure\\Microsservices_Project\\PurchaseOrder\\PurchaseOrder.csproj",
+      "projectUniqueName": "C:\\Users\\masin\\OneDrive\\Área de Trabalho\\microsservices_estructure\\Microsservices_Project\\PurchaseOrder\\PurchaseOrderDB.csproj",
+      "projectName": "PurchaseOrderDB",
+      "projectPath": "C:\\Users\\masin\\OneDrive\\Área de Trabalho\\microsservices_estructure\\Microsservices_Project\\PurchaseOrder\\PurchaseOrderDB.csproj",
       "packagesPath": "C:\\Users\\masin\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\masin\\OneDrive\\Área de Trabalho\\microsservices_estructure\\Microsservices_Project\\PurchaseOrder\\obj\\",
       "projectStyle": "PackageReference",

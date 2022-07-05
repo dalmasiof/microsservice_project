@@ -13,70 +13,8 @@
         "packagesPath": "C:\\Users\\masin\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\masin\\OneDrive\\Área de Trabalho\\microsservices_estructure\\Microsservices_Project\\Entities\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
           "C:\\Users\\masin\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
-        ],
-        "originalTargetFrameworks": [
-          "net6.0"
-        ],
-        "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "net6.0": {
-            "targetAlias": "net6.0",
-            "projectReferences": {}
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        }
-      },
-      "frameworks": {
-        "net6.0": {
-          "targetAlias": "net6.0",
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "C:\\Users\\masin\\OneDrive\\Área de Trabalho\\microsservices_estructure\\Microsservices_Project\\MessageBus\\MessageBus.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Users\\masin\\OneDrive\\Área de Trabalho\\microsservices_estructure\\Microsservices_Project\\MessageBus\\MessageBus.csproj",
-        "projectName": "MessageBus",
-        "projectPath": "C:\\Users\\masin\\OneDrive\\Área de Trabalho\\microsservices_estructure\\Microsservices_Project\\MessageBus\\MessageBus.csproj",
-        "packagesPath": "C:\\Users\\masin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\masin\\OneDrive\\Área de Trabalho\\microsservices_estructure\\Microsservices_Project\\MessageBus\\obj\\",
-        "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
-        "configFilePaths": [
-          "C:\\Users\\masin\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -129,12 +67,8 @@
         "packagesPath": "C:\\Users\\masin\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\masin\\OneDrive\\Área de Trabalho\\microsservices_estructure\\Microsservices_Project\\UserDB\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
           "C:\\Users\\masin\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -150,9 +84,6 @@
             "projectReferences": {
               "C:\\Users\\masin\\OneDrive\\Área de Trabalho\\microsservices_estructure\\Microsservices_Project\\Entities\\Entities.csproj": {
                 "projectPath": "C:\\Users\\masin\\OneDrive\\Área de Trabalho\\microsservices_estructure\\Microsservices_Project\\Entities\\Entities.csproj"
-              },
-              "C:\\Users\\masin\\OneDrive\\Área de Trabalho\\microsservices_estructure\\Microsservices_Project\\MessageBus\\MessageBus.csproj": {
-                "projectPath": "C:\\Users\\masin\\OneDrive\\Área de Trabalho\\microsservices_estructure\\Microsservices_Project\\MessageBus\\MessageBus.csproj"
               }
             }
           }
@@ -176,12 +107,14 @@
               "version": "[6.0.6, )"
             },
             "Microsoft.EntityFrameworkCore.Design": {
-              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-              "suppressParent": "All",
               "target": "Package",
               "version": "[6.0.6, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.6, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
               "version": "[6.0.6, )"
             },
@@ -195,7 +128,7 @@
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
-              "version": "[6.2.3, )"
+              "version": "[6.3.0, )"
             }
           },
           "imports": [

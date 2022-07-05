@@ -1,44 +1,42 @@
-﻿using Microsoft.EntityFrameworkCore;
-using UserDB.Data.Context;
+﻿using UserDB.Data.Context;
 
 
 namespace UserDB.Data.Repository
 {
     public class UserRepository : IUserRepository
     {
-        private readonly DbContextOptions<UserContext> _context;
-
-        public UserRepository(DbContextOptions<UserContext> context)
+        private readonly UserContext _context;
+        public UserRepository(UserContext context)
         {
             _context = context;
         }
 
-
         public UserData Create(UserData entity)
         {
-             using var _userctx = new UserContext(_context);
 
-                _userctx.Add(entity);
-            _userctx.SaveChanges();
+            _context.Add(entity);
+            _context.SaveChanges();
 
             return entity;
         }
 
-        public UserData Delete(UserData entity)
+        public bool Delete(UserData entity)
         {
-            throw new NotImplementedException();
+            _context.Users.Remove(entity);
+             return SaveChanges();
+
         }
 
-        public IEnumerable<UserData> Get(UserData entity)
+        public IEnumerable<UserData> Get()
         {
-            throw new NotImplementedException();
+            return _context.Users;
         }
+
+        public UserData GetById(long Id) => _context.Users.Where(x => x.Id == Id).FirstOrDefault();
 
         public bool SaveChanges()
         {
-            using var _userctx = new UserContext(_context);
-
-            if (_userctx.SaveChanges() > 0)
+            if (_context.SaveChanges() > 0)
                 return true;
 
             return false;
@@ -46,7 +44,9 @@ namespace UserDB.Data.Repository
 
         public UserData Update(UserData entity)
         {
-            throw new NotImplementedException();
+            _context.Users.Update(entity);
+            SaveChanges();
+            return entity;
         }
     }
 }

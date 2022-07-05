@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ztUV6mDSHiJhm5vB0aGM72KtiNgSjqTB3PHmYV6xkE+b5Cq0/u7cjo7xuAN24Iaxdu4PkJay1WdtTLxQ4/NZyw==",
+  "dgSpecHash": "yW7kbtvl4sWa+3jqw0ez7WY4gX0DqAdA77AkiXJ8//i4iInFDFIyC0wztV2Dn0sUPeNlaSlVGiHR7lRGQgibfw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\masin\\OneDrive\\Área de Trabalho\\microsservices_estructure\\Microsservices_Project\\PurchaseOrder\\PurchaseOrder.csproj",
+  "projectFilePath": "C:\\Users\\masin\\OneDrive\\Área de Trabalho\\microsservices_estructure\\Microsservices_Project\\PurchaseOrder\\PurchaseOrderDB.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\masin\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "C:\\Users\\masin\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
