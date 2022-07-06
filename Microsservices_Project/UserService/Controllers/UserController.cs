@@ -23,23 +23,32 @@ namespace UserService.Controllers
             return Ok(userList);
         }
 
-        [HttpPost]
-        public ActionResult Post(UserDTO userDTO)
+        [HttpGet("{Id}")]
+        public async Task<ActionResult> Get(long Id)
         {
-            _userService.Create(userDTO);
-                return Ok();
+            var userList = await _userService.Get(Id);
+            return Ok(userList);
         }
 
-        [HttpDelete]
-        public ActionResult Delete()
+        [HttpPost]
+        public async Task<ActionResult> Post(UserDTO userDTO)
         {
-            return Ok();
+                return Ok(await _userService.Create(userDTO));
+        }
+
+        [HttpDelete("{Id}")]
+        public async Task<ActionResult> Delete(int Id)
+        {
+            if(await _userService.Delete(Id))
+                return Ok();
+            else
+                return BadRequest();
         }
 
         [HttpPut]
-        public ActionResult Put()
+        public async Task<ActionResult> Put(UserDTO userDTO)
         {
-            return Ok();
+            return Ok(await _userService.Update(userDTO));
         }
     }
 }

@@ -8,11 +8,11 @@ namespace Entities.Entities
 {
     public class PaymentOrderData
     {
-        public long Id { get; set; }
-        public double Total { get; set; }
-        public double Discount { get; set; }
-        public double ShippingCost { get; set; }
-        public double TotalToPay { get; set; }
-        public UserData UserData { get; set; }
+        public long id { get; set; }
+        public double total { get; set; }
+        public double discount { get; set; }
+        public double shippingCost { get; set; }
+        public double totalToPay { get; set; }
+        public UserData userData { get; set; }
     }
 }

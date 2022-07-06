@@ -32,7 +32,7 @@ namespace UserDB.Data.Repository
             return _context.UserDatas;
         }
 
-        public UserData GetById(long Id) => _context.UserDatas.Where(x => x.Id == Id).FirstOrDefault();
+        public UserData GetById(long Id) => _context.UserDatas.Where(x => x.id == Id).FirstOrDefault();
 
         public bool SaveChanges()
         {

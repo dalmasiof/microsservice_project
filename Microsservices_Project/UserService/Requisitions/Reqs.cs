@@ -25,32 +25,38 @@ namespace UserService.Requisitions
         {
             HttpResponseMessage response = await HttpClient.GetAsync(url);
             var responseContent =  response.Content.ReadAsStringAsync().Result;
-            var payload = JsonSerializer.Deserialize<IEnumerable<UserDTO>>(responseContent);
-            return null;
-
-
-            //var teste  = _httpReq.Get(_url);
-            //return teste;
+            var payload = JsonSerializer.Deserialize<IEnumerable<UserData>>(responseContent);
+            return payload;
         }
 
-        public Task<UserData> Get(int Id)
+        public async Task<UserData> Get(long Id)
         {
-            throw new NotImplementedException();
+            HttpResponseMessage response = await HttpClient.GetAsync(url + "/" + Id);
+            var responseContent = response.Content.ReadAsStringAsync().Result;
+            var payload = JsonSerializer.Deserialize<UserData>(responseContent);
+            return payload;
         }
 
-        public Task<UserData> Post(UserData userData)
+        public async Task<UserData> Post(UserData userData)
         {
-            throw new NotImplementedException();
+            HttpResponseMessage response = await HttpClient.PostAsJsonAsync(url,userData);
+            var responseContent = response.Content.ReadAsStringAsync().Result;
+            var payload = JsonSerializer.Deserialize<UserData>(responseContent);
+            return payload;
         }
 
-        public Task<UserData> Put(UserData userData)
+        public async Task<UserData> Put(UserData userData)
         {
-            throw new NotImplementedException();
+            HttpResponseMessage response = await HttpClient.PutAsJsonAsync(url, userData);
+            var responseContent = response.Content.ReadAsStringAsync().Result;
+            var payload = JsonSerializer.Deserialize<UserData>(responseContent);
+            return payload;
         }
 
-        public Task<bool> Delete(int id)
+        public async Task<bool> Delete(long Id)
         {
-            throw new NotImplementedException();
+            HttpResponseMessage response = await HttpClient.DeleteAsync(url+"/"+Id);
+            return response.IsSuccessStatusCode;
         }
     }
 }

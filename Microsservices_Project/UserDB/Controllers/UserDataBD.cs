@@ -17,7 +17,7 @@ namespace UserDB.Controllers
         public IActionResult Get()
         {
             var user = _userRepository.Get();
-            return Ok (user);
+            return Ok(user);
         }
 
         [HttpGet("{id}")]
@@ -31,7 +31,7 @@ namespace UserDB.Controllers
         public IActionResult Post(UserData user)
         {
             if (_userRepository.Create(user) != null)
-                return StatusCode(201);
+                return Ok(user);
             else
                 return StatusCode(500);
         }
@@ -46,13 +46,21 @@ namespace UserDB.Controllers
         }
 
 
-        [HttpDelete()]
+        [HttpDelete("{Id}")]
         public IActionResult Delete(int Id)
         {
             var user = _userRepository.GetById(Id);
-            if (_userRepository.Delete(user))
-                return Ok();
-            else return StatusCode(500);
+
+            if (user != null)
+            {
+                if (_userRepository.Delete(user))
+                    return Ok();
+                else 
+                    return BadRequest();
+
+            }
+            else  
+                return StatusCode(400);
         }
     }
 }

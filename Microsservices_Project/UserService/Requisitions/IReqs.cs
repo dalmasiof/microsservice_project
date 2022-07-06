@@ -5,11 +5,11 @@
 
     public interface IReqs
     {
-         public Task<UserDTO> Get(int Id);
-        public Task<UserDTO> Post(UserDTO UserDTO);
-        public Task<UserDTO> Put(UserDTO UserDTO);
-        public Task<bool> Delete(int id);
-        public Task<IEnumerable<UserDTO>> Get();
+        public Task<UserData> Get(long Id);
+        public Task<UserData> Post(UserData userData);
+        public Task<UserData> Put(UserData userData);
+        public Task<bool> Delete(long id);
+        public Task<IEnumerable<UserData>> Get();
 
     }
 }

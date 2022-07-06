@@ -1,6 +1,4 @@
-using HttpRequisition;
-using UserService.MessageSender;
-using UserService.MessageSender.Interfaces;
+using UserService;
 using UserService.Requisitions;
 using UserService.Service;
 using UserService.Service.Interface;
@@ -15,7 +13,12 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 builder.Services.AddScoped<IUserService, User_Service>();
+
 builder.Services.AddScoped<IReqs, Reqs>();
+
+builder.Services.AddAutoMapper(typeof(AutoMapping).Assembly);
+
+
 
 //builder.Services.AddScoped<IBaseHttpClient<UserData>, HttpRequisition<UserData>>();
 

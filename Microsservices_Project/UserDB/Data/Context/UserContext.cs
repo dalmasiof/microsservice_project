@@ -12,23 +12,23 @@ namespace UserDB.Data.Context
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            modelBuilder.Entity<UserData>().Property(x => x.Id)
+            modelBuilder.Entity<UserData>().Property(x => x.id)
                 .IsRequired()
                 .UseIdentityColumn();
 
-            modelBuilder.Entity<UserData>().Property(x => x.Email)
+            modelBuilder.Entity<UserData>().Property(x => x.email)
                 .IsRequired()
                 .HasMaxLength(256);
 
-            modelBuilder.Entity<UserData>().Property(x => x.BirthDate)
+            modelBuilder.Entity<UserData>().Property(x => x.birthDate)
                 .IsRequired()
                 .HasMaxLength(6);
 
-            modelBuilder.Entity<UserData>().Property(x => x.Name)
+            modelBuilder.Entity<UserData>().Property(x => x.name)
                 .IsRequired()
                 .HasMaxLength(500);
 
-            modelBuilder.Entity<UserData>().Property(x => x.LastName)
+            modelBuilder.Entity<UserData>().Property(x => x.lastName)
                 .IsRequired()
                 .HasMaxLength(500);
 

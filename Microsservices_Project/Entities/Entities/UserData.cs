@@ -4,11 +4,11 @@ using System.ComponentModel.DataAnnotations;
 public class UserData
 {
    
-    public int Id { get; set; }
-    public string Name { get; set; }
-    public string LastName { get; set; }
-    public DateTime BirthDate { get; set; }
-    public string Email { get; set; }
+    public long id { get; set; }
+    public string name { get; set; }
+    public string lastName { get; set; }
+    public DateTime birthDate { get; set; }
+    public string email { get; set; }
 
 	
 }

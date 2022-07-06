@@ -67,3 +67,5 @@ C:\Users\masin\OneDrive\Área de Trabalho\microsservices_estructure\Microsservic
 C:\Users\masin\OneDrive\Área de Trabalho\microsservices_estructure\Microsservices_Project\UserService\bin\Debug\net6.0\HttpRequisition.dll
 C:\Users\masin\OneDrive\Área de Trabalho\microsservices_estructure\Microsservices_Project\UserService\bin\Debug\net6.0\Entities.pdb
 C:\Users\masin\OneDrive\Área de Trabalho\microsservices_estructure\Microsservices_Project\UserService\bin\Debug\net6.0\HttpRequisition.pdb
+C:\Users\masin\OneDrive\Área de Trabalho\microsservices_estructure\Microsservices_Project\UserService\bin\Debug\net6.0\AutoMapper.dll
+C:\Users\masin\OneDrive\Área de Trabalho\microsservices_estructure\Microsservices_Project\UserService\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll

@@ -8,10 +8,10 @@ namespace Entities.Entities
 {
     public class PaymentData
     {
-        public long Id { get; set; }
-        public double  Value { get; set; }
-        public DateTime PaymentDate { get; set; }
-        public PaymentOrderData PaymentOrderData { get; set; }
+        public long id { get; set; }
+        public double  value { get; set; }
+        public DateTime paymentDate { get; set; }
+        public PaymentOrderData paymentOrderData { get; set; }
 
         
 
