@@ -13,6 +13,6 @@ namespace Entities.Entities
         public double discount { get; set; }
         public double shippingCost { get; set; }
         public double totalToPay { get; set; }
-        public UserData userData { get; set; }
+        public long userId { get; set; }
     }
 }
