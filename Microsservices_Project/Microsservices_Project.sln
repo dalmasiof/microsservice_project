@@ -39,7 +39,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "HttpClient", "HttpClient", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HttpRequisition", "HttpClient\HttpRequisition.csproj", "{F46B706B-C1D0-4109-85D9-75EC9629E62C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaymentOrderService", "PaymentOrderService\PaymentOrderService.csproj", "{EC917176-B2ED-4EDC-9F31-0CB7368CEA27}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PaymentOrderService", "PaymentOrderService\PaymentOrderService.csproj", "{EC917176-B2ED-4EDC-9F31-0CB7368CEA27}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

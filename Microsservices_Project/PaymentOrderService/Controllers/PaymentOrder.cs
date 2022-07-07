@@ -5,7 +5,7 @@ namespace PaymentOrderService.Controllers
 {
     [Route("[controller]")]
     [ApiController]
-    public class PaymentOrder : ControllerBase
+    public class PaymentOrderController : ControllerBase
     {
     }
 }

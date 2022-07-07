@@ -15,7 +15,6 @@
           "HttpRequisition": "1.0.0",
           "Interfaces": "1.0.0",
           "MessageBus": "1.0.0",
-          "PurchaseOrderService": "1.0.0",
           "RabbitMQ.Client": "6.4.0",
           "Swashbuckle.AspNetCore": "6.2.3"
         },
@@ -179,14 +178,6 @@
       "MessageBus/1.0.0": {
         "runtime": {
           "MessageBus.dll": {}
-        }
-      },
-      "PurchaseOrderService/1.0.0": {
-        "dependencies": {
-          "Swashbuckle.AspNetCore": "6.2.3"
-        },
-        "runtime": {
-          "PurchaseOrderService.dll": {}
         }
       }
     }
@@ -367,11 +358,6 @@
       "sha512": ""
     },
     "MessageBus/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "PurchaseOrderService/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

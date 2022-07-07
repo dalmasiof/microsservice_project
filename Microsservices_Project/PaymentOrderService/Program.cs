@@ -1,3 +1,6 @@
+using PaymentOrderService.Requisitions;
+using PaymentOrderService.Service;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -6,6 +9,13 @@ builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+
+builder.Services.AddScoped<IPOService, PoService>();
+
+builder.Services.AddScoped<IRequisition, Requisitions>();
+
+builder.Services.AddAutoMapper(typeof(AutoMapping).Assembly);
+
 
 var app = builder.Build();
 
