@@ -3,7 +3,7 @@ using Interfaces;
 
 namespace UserService.Service.Interface
 {
-    public interface IUserService : IBaseRequest<UserDTO>
+    public interface IUserService : IBaseRequest<UserVM>
     {
         
 

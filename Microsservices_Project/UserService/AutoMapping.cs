@@ -7,7 +7,7 @@ namespace UserService
     {
         public AutoMapping()
         {
-            CreateMap<UserData, UserDTO>().ReverseMap();
+            CreateMap<UserData, UserVM>().ReverseMap();
         }
     }
 }

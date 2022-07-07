@@ -31,7 +31,7 @@ namespace UserService.Controllers
         }
 
         [HttpPost]
-        public async Task<ActionResult> Post(UserDTO userDTO)
+        public async Task<ActionResult> Post(UserVM userDTO)
         {
                 return Ok(await _userService.Create(userDTO));
         }
@@ -46,7 +46,7 @@ namespace UserService.Controllers
         }
 
         [HttpPut]
-        public async Task<ActionResult> Put(UserDTO userDTO)
+        public async Task<ActionResult> Put(UserVM userDTO)
         {
             return Ok(await _userService.Update(userDTO));
         }

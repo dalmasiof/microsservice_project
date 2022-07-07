@@ -3,7 +3,7 @@ using UserService.Model;
 
 namespace UserService.Service.Validator
 {
-    public class UserValidator : AbstractValidator<UserDTO>
+    public class UserValidator : AbstractValidator<UserVM>
     {
         public UserValidator()
         {

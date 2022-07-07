@@ -18,11 +18,11 @@ namespace UserService.Service
             _reqs = reqs;
             _mapper = mapper;
         }
-        public async Task<UserDTO> Create(UserDTO entity)
+        public async Task<UserVM> Create(UserVM entity)
         {
             Validate(entity);
             var userToCreate = _mapper.Map<UserData>(entity);
-            var userVMCreated= _mapper.Map<UserDTO>(await _reqs.Post(userToCreate));
+            var userVMCreated= _mapper.Map<UserVM>(await _reqs.Post(userToCreate));
             return userVMCreated;
 
         }
@@ -32,27 +32,27 @@ namespace UserService.Service
             return (await _reqs.Delete(Id));
         }
 
-        public async Task<IEnumerable<UserDTO>> Get()
+        public async Task<IEnumerable<UserVM>> Get()
         {
-            var userDto = _mapper.Map<IEnumerable<UserDTO>>(await _reqs.Get()) ;
+            var userDto = _mapper.Map<IEnumerable<UserVM>>(await _reqs.Get()) ;
             return userDto;
         }
 
-        public async Task<UserDTO> Get(long Id)
+        public async Task<UserVM> Get(long Id)
         {
-            var userToGet = _mapper.Map<UserDTO>(await _reqs.Get(Id));
+            var userToGet = _mapper.Map<UserVM>(await _reqs.Get(Id));
             return userToGet;
         }
 
-        public async Task<UserDTO> Update(UserDTO entity)
+        public async Task<UserVM> Update(UserVM entity)
         {
             Validate(entity);
             var userToUpdate = _mapper.Map<UserData>(entity);
-            var userTdUpdated = _mapper.Map<UserDTO>(await _reqs.Put(userToUpdate));
+            var userTdUpdated = _mapper.Map<UserVM>(await _reqs.Put(userToUpdate));
             return userTdUpdated;
         }
 
-        public void Validate(UserDTO obj)
+        public void Validate(UserVM obj)
         {
             UserValidator  validationRules = new UserValidator();
             validationRules.ValidateAndThrow(obj);

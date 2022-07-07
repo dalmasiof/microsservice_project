@@ -37,6 +37,9 @@ namespace PaymentOrderDB.Migrations
                     b.Property<double>("total")
                         .HasColumnType("double");
 
+                    b.Property<double>("totalPayed")
+                        .HasColumnType("double");
+
                     b.Property<double>("totalToPay")
                         .HasColumnType("double");
 

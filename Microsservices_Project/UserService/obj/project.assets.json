@@ -315,22 +315,6 @@
         "runtime": {
           "bin/placeholder/MessageBus.dll": {}
         }
-      },
-      "PurchaseOrderService/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v6.0",
-        "dependencies": {
-          "Swashbuckle.AspNetCore": "6.2.3"
-        },
-        "compile": {
-          "bin/placeholder/PurchaseOrderService.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/PurchaseOrderService.dll": {}
-        },
-        "frameworkReferences": [
-          "Microsoft.AspNetCore.App"
-        ]
       }
     }
   },
@@ -899,11 +883,6 @@
       "type": "project",
       "path": "../MessageBus/MessageBus.csproj",
       "msbuildProject": "../MessageBus/MessageBus.csproj"
-    },
-    "PurchaseOrderService/1.0.0": {
-      "type": "project",
-      "path": "../PurchaseOrderService/PurchaseOrderService.csproj",
-      "msbuildProject": "../PurchaseOrderService/PurchaseOrderService.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -915,7 +894,6 @@
       "HttpRequisition >= 1.0.0",
       "Interfaces >= 1.0.0",
       "MessageBus >= 1.0.0",
-      "PurchaseOrderService >= 1.0.0",
       "RabbitMQ.Client >= 6.4.0",
       "Swashbuckle.AspNetCore >= 6.2.3"
     ]
@@ -958,9 +936,6 @@
             },
             "C:\\Users\\masin\\OneDrive\\Área de Trabalho\\microsservices_estructure\\Microsservices_Project\\MessageBus\\MessageBus.csproj": {
               "projectPath": "C:\\Users\\masin\\OneDrive\\Área de Trabalho\\microsservices_estructure\\Microsservices_Project\\MessageBus\\MessageBus.csproj"
-            },
-            "C:\\Users\\masin\\OneDrive\\Área de Trabalho\\microsservices_estructure\\Microsservices_Project\\PurchaseOrderService\\PurchaseOrderService.csproj": {
-              "projectPath": "C:\\Users\\masin\\OneDrive\\Área de Trabalho\\microsservices_estructure\\Microsservices_Project\\PurchaseOrderService\\PurchaseOrderService.csproj"
             }
           }
         }

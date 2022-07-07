@@ -19,7 +19,6 @@
     <ProjectReference Include="..\HttpClient\HttpRequisition.csproj" />
     <ProjectReference Include="..\Interfaces\Interfaces.csproj" />
     <ProjectReference Include="..\MessageBus\MessageBus.csproj" />
-    <ProjectReference Include="..\PurchaseOrderService\PurchaseOrderService.csproj" />
   </ItemGroup>
 
 </Project>
