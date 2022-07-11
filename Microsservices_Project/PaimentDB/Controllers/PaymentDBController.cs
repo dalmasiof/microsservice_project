@@ -26,7 +26,14 @@ namespace PaymentDB.Controllers
         public IActionResult Get(int id)
         {
             var paymentOrder = _paymentRepository.GetById(id);
-            return Ok(paymentOrder);
+            if(paymentOrder == null)
+            {
+                return BadRequest("Payment not found");
+            }
+            else
+            {
+                return Ok(paymentOrder);
+            }
         }
 
         [HttpPost]
@@ -58,11 +65,11 @@ namespace PaymentDB.Controllers
                 if (_paymentRepository.Delete(paymentOrder))
                     return Ok();
                 else
-                    return BadRequest();
+                    return StatusCode(500);
 
             }
             else
-                return StatusCode(400);
+                return BadRequest();
         }
     }
 }
