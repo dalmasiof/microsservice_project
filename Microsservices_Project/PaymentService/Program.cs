@@ -1,3 +1,9 @@
+using PaymentService;
+using PaymentService.Requisition.Interface;
+using PaymentService.Service.Interfaces;
+using PaymentService.Service;
+using PaymentService.Requisition;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -7,7 +13,13 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
+builder.Services.AddAutoMapper(typeof(MappingConfig).Assembly);
+builder.Services.AddScoped<IRequisitionPayment, RequisitionPayment>();
+builder.Services.AddScoped<IPaymentService, PaymentServices>();
+
 var app = builder.Build();
+
+
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
