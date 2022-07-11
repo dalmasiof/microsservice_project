@@ -9,7 +9,7 @@ namespace PaymentOrderService.Requisitions
 
         private static HttpClient _httpClient;
         private static HttpClient HttpClient => _httpClient ?? (_httpClient = new HttpClient());
-        private static string url = "https://localhost:7172/UserDataBD";
+        private static string url = "https://localhost:7174/PoDb";
 
         public async Task<bool> Delete(long number)
         {
@@ -29,8 +29,8 @@ namespace PaymentOrderService.Requisitions
         {
             HttpResponseMessage response = await HttpClient.GetAsync(url);
             var responseContent = response.Content.ReadAsStringAsync().Result;
-            var payload = JsonSerializer.Deserialize<PaymentOrderData>(responseContent);
-            return payload;
+            var payload = JsonSerializer.Deserialize<IEnumerable<PaymentOrderData>>(responseContent);
+            return payload.FirstOrDefault();
         }
 
         public async Task<PaymentOrderData> Post(PaymentOrderData PaymentOrderData)

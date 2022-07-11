@@ -25,8 +25,7 @@ public class PoValidator : AbstractValidator<PoVm>
             .NotNull();
 
         RuleFor(x => x.totalPayed)
-            .NotEmpty()
-            .NotNull();
+            .Equal(0).WithMessage("PaymentOrder always must be created with 0 value paied");
 
     }
 }
