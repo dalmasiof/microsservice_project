@@ -1,5 +1,6 @@
 ﻿using Entities.Entities;
 using PaymentService.Requisition.Interface;
+using PaymentService.Requisition.MessageSender;
 using System.Text.Json;
 
 namespace PaymentService.Requisition
@@ -10,12 +11,21 @@ namespace PaymentService.Requisition
         private static HttpClient HttpClient => _httpClient ?? (_httpClient = new HttpClient());
         private static string url = "https://localhost:7150/PaymentDB";
 
+        private readonly IMessageSender _messageSender;
+
+        public RequisitionPayment(IMessageSender messageSender)
+        {
+            _messageSender = messageSender;
+        }
         public async Task<PaymentData> Create(PaymentData entity)
         {
-            HttpResponseMessage response = await HttpClient.PostAsJsonAsync(url, entity);
-            var responseContent = response.Content.ReadAsStringAsync().Result;
-            var payload = JsonSerializer.Deserialize<PaymentData>(responseContent);
-            return payload;
+            //HttpResponseMessage response = await HttpClient.PostAsJsonAsync(url, entity);
+            //var responseContent = response.Content.ReadAsStringAsync().Result;
+            //var payload = JsonSerializer.Deserialize<PaymentData>(responseContent);
+            //return payload;
+
+            _messageSender.SendMessage(entity);
+            return entity;
         }
 
         public async Task<bool> Delete(long Id)

@@ -3,6 +3,7 @@ using PaymentService.Requisition.Interface;
 using PaymentService.Service.Interfaces;
 using PaymentService.Service;
 using PaymentService.Requisition;
+using PaymentService.Requisition.MessageSender;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -16,6 +17,8 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddAutoMapper(typeof(MappingConfig).Assembly);
 builder.Services.AddScoped<IRequisitionPayment, RequisitionPayment>();
 builder.Services.AddScoped<IPaymentService, PaymentServices>();
+builder.Services.AddScoped<IMessageSender, MessageSender>();
+
 
 var app = builder.Build();
 

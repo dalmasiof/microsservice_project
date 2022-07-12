@@ -8,6 +8,8 @@ namespace MessageBus
 {
     public static class MESSAGE_QUEUE_NAMES
     {
-        public static string USER_CREATE = "Exchange_UserCreate_Queue";
+        public const string PAYMENT_RECEIVE = "PAYMENT_QUEUE";
+        public const string UPDATE_PO = "UPDATE_POS";
+
     }
 }

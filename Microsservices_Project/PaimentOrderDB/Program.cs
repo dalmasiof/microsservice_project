@@ -1,4 +1,5 @@
 using Microsoft.EntityFrameworkCore;
+using PaymentOrderDB.Consumer;
 using PaymentOrderDB.Data.Context;
 using PaymentOrderDB.Data.Repository;
 using PaymentOrderDB.Data.Repository.Interfaces;
@@ -11,7 +12,7 @@ builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
-
+builder.Services.AddHostedService<PaymentOrderConsumer>();
 builder.Services.AddScoped<IPORepository, PORepository>();
 
 var conStrgn = builder.Configuration.GetConnectionString("ConString");

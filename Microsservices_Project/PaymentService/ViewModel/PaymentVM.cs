@@ -6,6 +6,6 @@
         public long idPaymentOrder { get; set; }
         public long idUser { get; set; }
         public double value { get; set; }
-        public DateTime paymentDate { get; set; }
+        public DateTime paymentDate = DateTime.Now;
     }
 }
