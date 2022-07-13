@@ -8,11 +8,11 @@ namespace PaymentOrderService.Service
 {
     public class PoService : IPOService
     {
-        private readonly IRequisition _reqs;
+        private readonly IPoRequisition _reqs;
         private readonly IMapper _map;
 
 
-        public PoService(IRequisition ireqs, IMapper mapper)
+        public PoService(IPoRequisition ireqs, IMapper mapper)
         {
             _reqs = ireqs;
             _map = mapper;
@@ -22,7 +22,7 @@ namespace PaymentOrderService.Service
         {
             Validate(entity);
             var entityoCreate = _map.Map<PaymentOrderData>(entity);
-            var entityVMCreated = _map.Map<PoVm>(await _reqs.Post(entityoCreate));
+            var entityVMCreated = _map.Map<PoVm>(await _reqs.Create(entityoCreate));
             return entityVMCreated;
 
         }
@@ -48,7 +48,7 @@ namespace PaymentOrderService.Service
         {
             Validate(entity);
             var userToUpdate = _map.Map<PaymentOrderData>(entity);
-            var userTdUpdated = _map.Map<PoVm>(await _reqs.Put(userToUpdate));
+            var userTdUpdated = _map.Map<PoVm>(await _reqs.Update(userToUpdate));
             return userTdUpdated;
         }
 

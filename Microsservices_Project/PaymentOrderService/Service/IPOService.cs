@@ -3,7 +3,7 @@ using PaymentOrderService.ViewModels;
 
 namespace PaymentOrderService.Service
 {
-    public interface IPOService : IBaseRequest<PoVm>
+    public interface IPOService : IBaseService<PoVm>
     {
 
     }

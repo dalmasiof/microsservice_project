@@ -4,7 +4,7 @@ using System.Text.Json;
 
 namespace UserService.Requisitions
 {
-    public class Reqs : IReqs
+    public class Reqs : IUserRequest
     {
 
         private static HttpClient _httpClient;
@@ -32,7 +32,7 @@ namespace UserService.Requisitions
             return null;
         }
 
-        public async Task<UserData> Post(UserData userData)
+        public async Task<UserData> Create(UserData userData)
         {
             HttpResponseMessage response = await HttpClient.PostAsJsonAsync(url, userData);
             var responseContent = response.Content.ReadAsStringAsync().Result;
@@ -40,7 +40,7 @@ namespace UserService.Requisitions
             return payload;
         }
 
-        public async Task<UserData> Put(UserData userData)
+        public async Task<UserData> Update(UserData userData)
         {
             HttpResponseMessage response = await HttpClient.PutAsJsonAsync(url, userData);
             var responseContent = response.Content.ReadAsStringAsync().Result;

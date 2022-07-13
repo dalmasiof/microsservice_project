@@ -9,11 +9,11 @@ namespace UserService.Service
 {
     public class User_Service : IUserService
     {
-        private readonly IReqs _reqs;
+        private readonly IUserRequest _reqs;
         private readonly IMapper _mapper;
 
 
-        public User_Service(IReqs reqs, IMapper mapper)
+        public User_Service(IUserRequest reqs, IMapper mapper)
         {
             _reqs = reqs;
             _mapper = mapper;
@@ -22,7 +22,7 @@ namespace UserService.Service
         {
             Validate(entity);
             var userToCreate = _mapper.Map<UserData>(entity);
-            var userVMCreated= _mapper.Map<UserVM>(await _reqs.Post(userToCreate));
+            var userVMCreated= _mapper.Map<UserVM>(await _reqs.Create(userToCreate));
             return userVMCreated;
 
         }
@@ -50,7 +50,7 @@ namespace UserService.Service
         {
             Validate(entity);
             var userToUpdate = _mapper.Map<UserData>(entity);
-            var userTdUpdated = _mapper.Map<UserVM>(await _reqs.Put(userToUpdate));
+            var userTdUpdated = _mapper.Map<UserVM>(await _reqs.Update(userToUpdate));
             return userTdUpdated;
         }
 

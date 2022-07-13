@@ -4,7 +4,7 @@ using System.Text.Json;
 
 namespace PaymentOrderService.Requisitions
 {
-    public class Requisitions : IRequisition
+    public class Requisitions : IPoRequisition
     {
 
         private static HttpClient _httpClient;
@@ -38,7 +38,7 @@ namespace PaymentOrderService.Requisitions
 
         }
 
-        public async Task<PaymentOrderData> Post(PaymentOrderData PaymentOrderData)
+        public async Task<PaymentOrderData> Create(PaymentOrderData PaymentOrderData)
         {
             HttpResponseMessage response = await HttpClient.PostAsJsonAsync(url, PaymentOrderData);
             var responseContent = response.Content.ReadAsStringAsync().Result;
@@ -46,7 +46,7 @@ namespace PaymentOrderService.Requisitions
             return payload;
         }
 
-        public async Task<PaymentOrderData> Put(PaymentOrderData PaymentOrderData)
+        public async Task<PaymentOrderData> Update(PaymentOrderData PaymentOrderData)
         {
             HttpResponseMessage response = await HttpClient.PutAsJsonAsync(url, PaymentOrderData);
             var responseContent = response.Content.ReadAsStringAsync().Result;

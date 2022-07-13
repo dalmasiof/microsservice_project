@@ -14,7 +14,7 @@ builder.Services.AddSwaggerGen();
 
 builder.Services.AddScoped<IUserService, User_Service>();
 
-builder.Services.AddScoped<IReqs, Reqs>();
+builder.Services.AddScoped<IUserRequest, Reqs>();
 
 builder.Services.AddAutoMapper(typeof(AutoMapping).Assembly);
 

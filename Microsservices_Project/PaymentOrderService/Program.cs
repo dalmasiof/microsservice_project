@@ -12,7 +12,7 @@ builder.Services.AddSwaggerGen();
 
 builder.Services.AddScoped<IPOService, PoService>();
 
-builder.Services.AddScoped<IRequisition, Requisitions>();
+builder.Services.AddScoped<IPoRequisition, Requisitions>();
   
 builder.Services.AddAutoMapper(typeof(AutoMapping).Assembly);
 
