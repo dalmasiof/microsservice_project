@@ -26,8 +26,15 @@ namespace PaymentOrderService.Controllers
         [HttpGet("{Id}")]
         public async Task<ActionResult> Get(long Id)
         {
-            var userList = await _pOServicxe.Get(Id);
-            return Ok(userList);
+            var Po = await _pOServicxe.Get(Id);
+            if (Po == null)
+            {
+                return BadRequest("Po not found");
+            }
+            else
+            {
+                return Ok(Po);
+            }
         }
 
         [HttpPost]
@@ -42,7 +49,7 @@ namespace PaymentOrderService.Controllers
             if (await _pOServicxe.Delete(Id))
                 return Ok();
             else
-                return BadRequest();
+                return BadRequest("Po not found");
         }
 
         [HttpPut]

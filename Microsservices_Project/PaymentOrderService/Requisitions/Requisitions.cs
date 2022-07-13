@@ -27,10 +27,15 @@ namespace PaymentOrderService.Requisitions
 
         public async Task<PaymentOrderData> Get(long Id)
         {
-            HttpResponseMessage response = await HttpClient.GetAsync(url);
-            var responseContent = response.Content.ReadAsStringAsync().Result;
-            var payload = JsonSerializer.Deserialize<IEnumerable<PaymentOrderData>>(responseContent);
-            return payload.FirstOrDefault();
+            HttpResponseMessage response = await HttpClient.GetAsync(url+"/"+Id);
+            if (response.IsSuccessStatusCode)
+            {
+                var responseContent = response.Content.ReadAsStringAsync().Result;
+                var payload = JsonSerializer.Deserialize<PaymentOrderData>(responseContent);
+                return payload;
+            }
+            return null;
+
         }
 
         public async Task<PaymentOrderData> Post(PaymentOrderData PaymentOrderData)

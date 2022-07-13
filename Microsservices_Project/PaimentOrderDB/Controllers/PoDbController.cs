@@ -26,8 +26,10 @@ namespace PaymentOrderDB.Controllers
         [HttpGet("{id}")]
         public IActionResult Get(int id)
         {
-            var paymentOrder = _poRepository.GetById(id);
-            return Ok(paymentOrder);
+            var Po = _poRepository.GetById(id);
+            if (Po == null)
+                return BadRequest();
+            return Ok(Po);
         }
 
         [HttpPost]
