@@ -45,9 +45,13 @@ namespace PaymentService.Requisition
         public async Task<PaymentData> Get(long Id)
         {
             HttpResponseMessage response = await HttpClient.GetAsync(url + "/" + Id);
-            var responseContent = response.Content.ReadAsStringAsync().Result;
-            var payload = JsonSerializer.Deserialize<PaymentData>(responseContent);
-            return payload;
+            if (response.IsSuccessStatusCode)
+            {
+                var responseContent = response.Content.ReadAsStringAsync().Result;
+                var payload = JsonSerializer.Deserialize<PaymentData>(responseContent);
+                return payload;
+            }
+            return null;
         }
 
         public async Task<PaymentData> Update(PaymentData entity)

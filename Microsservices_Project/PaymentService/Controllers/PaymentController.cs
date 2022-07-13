@@ -26,8 +26,15 @@ namespace PaymentService.Controllers
         [HttpGet("{Id}")]
         public async Task<ActionResult> Get(long Id)
         {
-            var userList = await _paymentService.Get(Id);
-            return Ok(userList);
+            var payment = await _paymentService.Get(Id);
+            if (payment == null)
+            {
+                return BadRequest("Payment not found");
+            }
+            else
+            {
+                return Ok(payment);
+            }
         }
 
         [HttpPost]
@@ -42,7 +49,7 @@ namespace PaymentService.Controllers
             if (await _paymentService.Delete(Id))
                 return Ok();
             else
-                return BadRequest();
+                return BadRequest("Payment not found");
         }
 
         [HttpPut]
