@@ -14,7 +14,7 @@ namespace UserService.Requisitions
         public async Task<IEnumerable<UserData>> Get()
         {
             HttpResponseMessage response = await HttpClient.GetAsync(url);
-            var responseContent =  response.Content.ReadAsStringAsync().Result;
+            var responseContent = response.Content.ReadAsStringAsync().Result;
             var payload = JsonSerializer.Deserialize<IEnumerable<UserData>>(responseContent);
             return payload;
         }
@@ -22,14 +22,19 @@ namespace UserService.Requisitions
         public async Task<UserData> Get(long Id)
         {
             HttpResponseMessage response = await HttpClient.GetAsync(url + "/" + Id);
-            var responseContent = response.Content.ReadAsStringAsync().Result;
-            var payload = JsonSerializer.Deserialize<UserData>(responseContent);
-            return payload;
+            if (response.IsSuccessStatusCode)
+            {
+                var responseContent = response.Content.ReadAsStringAsync().Result;
+                var payload = JsonSerializer.Deserialize<UserData>(responseContent);
+                return payload;
+            }
+
+            return null;
         }
 
         public async Task<UserData> Post(UserData userData)
         {
-            HttpResponseMessage response = await HttpClient.PostAsJsonAsync(url,userData);
+            HttpResponseMessage response = await HttpClient.PostAsJsonAsync(url, userData);
             var responseContent = response.Content.ReadAsStringAsync().Result;
             var payload = JsonSerializer.Deserialize<UserData>(responseContent);
             return payload;
@@ -45,7 +50,7 @@ namespace UserService.Requisitions
 
         public async Task<bool> Delete(long Id)
         {
-            HttpResponseMessage response = await HttpClient.DeleteAsync(url+"/"+Id);
+            HttpResponseMessage response = await HttpClient.DeleteAsync(url + "/" + Id);
             return response.IsSuccessStatusCode;
         }
     }

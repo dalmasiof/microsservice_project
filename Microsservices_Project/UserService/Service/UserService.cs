@@ -40,7 +40,9 @@ namespace UserService.Service
 
         public async Task<UserVM> Get(long Id)
         {
-            var userToGet = _mapper.Map<UserVM>(await _reqs.Get(Id));
+            var user = await _reqs.Get(Id);
+
+            var userToGet = _mapper.Map<UserVM>(user);
             return userToGet;
         }
 

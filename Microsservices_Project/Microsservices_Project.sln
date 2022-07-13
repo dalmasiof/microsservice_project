@@ -41,6 +41,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HttpRequisition", "HttpClie
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PaymentOrderService", "PaymentOrderService\PaymentOrderService.csproj", "{EC917176-B2ED-4EDC-9F31-0CB7368CEA27}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "API_Gateway", "API_Gateway\API_Gateway.csproj", "{8CC40086-BB5D-4A7C-A459-4647DCD0581E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +89,10 @@ Global
 		{EC917176-B2ED-4EDC-9F31-0CB7368CEA27}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EC917176-B2ED-4EDC-9F31-0CB7368CEA27}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EC917176-B2ED-4EDC-9F31-0CB7368CEA27}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8CC40086-BB5D-4A7C-A459-4647DCD0581E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8CC40086-BB5D-4A7C-A459-4647DCD0581E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8CC40086-BB5D-4A7C-A459-4647DCD0581E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8CC40086-BB5D-4A7C-A459-4647DCD0581E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -110,6 +116,7 @@ Global
 		{69FB80BC-5545-4884-BCF9-80F9E599092A} = {781B5DA0-01EC-4961-9D8B-D5F6352BB43A}
 		{F46B706B-C1D0-4109-85D9-75EC9629E62C} = {69FB80BC-5545-4884-BCF9-80F9E599092A}
 		{EC917176-B2ED-4EDC-9F31-0CB7368CEA27} = {EF06BE38-5DDF-4309-AB95-8FD6D2A5287D}
+		{8CC40086-BB5D-4A7C-A459-4647DCD0581E} = {EF06BE38-5DDF-4309-AB95-8FD6D2A5287D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {58C60360-7D7F-4F16-9751-0DAD3632B304}

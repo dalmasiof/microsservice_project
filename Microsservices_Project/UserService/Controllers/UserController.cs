@@ -26,8 +26,15 @@ namespace UserService.Controllers
         [HttpGet("{Id}")]
         public async Task<ActionResult> Get(long Id)
         {
-            var userList = await _userService.Get(Id);
-            return Ok(userList);
+            var user = await _userService.Get(Id);
+            if (user == null)
+            {
+                return BadRequest("User not found");
+            }
+            else
+            {
+            }
+            return Ok(user);
         }
 
         [HttpPost]
@@ -42,7 +49,7 @@ namespace UserService.Controllers
             if(await _userService.Delete(Id))
                 return Ok();
             else
-                return BadRequest();
+                return BadRequest("User not found");
         }
 
         [HttpPut]

@@ -24,6 +24,8 @@ namespace UserDB.Controllers
         public IActionResult Get(int id)
         {
             var user = _userRepository.GetById(id);
+            if (user == null)
+                return BadRequest();
             return Ok(user);
         }
 
@@ -55,11 +57,11 @@ namespace UserDB.Controllers
             {
                 if (_userRepository.Delete(user))
                     return Ok();
-                else 
+                else
                     return BadRequest();
 
             }
-            else  
+            else
                 return StatusCode(400);
         }
     }
